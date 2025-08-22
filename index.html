@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Scanner</title>
+  <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20px;
+    }
+    #reader {
+      margin: auto;
+      width: 300px;
+    }
+    #result {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  
+   <form action="/data-post" method="post">  
+      <div id="reader"></div>
+   </form>
+
+  <script src="main.js"></script>
+</body>
+</html>
